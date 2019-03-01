@@ -1,0 +1,102 @@
+.login-wrapper {
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A4CEFE;
+}
+
+.logo{
+    width: 15em;
+    margin-bottom: 1.2em;
+}
+
+.form{
+    background-color: #F5F5F5;
+    padding: 10px 10px;
+    width: 25%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.form h1{
+    text-align: center;
+    margin: 0 0 0.8em 0;
+    font-size: 1.7em;
+
+}
+
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    height: 2.5em;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 178, 178); 
+}
+
+input[type=email]{
+    width: calc(85% - 1em);
+    padding-left: 1em;
+}
+
+input[type=password]{
+    width: calc(85% - 1em);
+    padding-left: 1em;
+}
+
+input[type=submit]{
+    background-color: #A4CEFE;
+    width: 85%;
+}
+.form p{
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 0.7em;
+    cursor: pointer
+}
+
+.form hr{
+    width: 80%;
+    border: 0.5px solid rgb(180, 178, 178); 
+}
+
+.form h3{
+    color: #5E5E5E;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+input[type=submit].button-facebook {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 15%;
+    background-color: #3B5999;
+    width: 35%;
+    color: #fff;
+    background-image: url('../img/facebook.png') no-repeat;
+}
+    
+input[type=submit].button-google {
+    display: inline-block;
+    background-color: #fff;
+    width: 35%;
+    color: #5E5E5E;
+    margin-right: 25px;
+    background-image: url('../img/google.png');
+}
+
+h3.cadastro{
+    font-size: 1em;
+    font-weight: 350;
+    margin: 0.5em;
+}
+
+h3 Link {
+    cursor: pointer;
+}

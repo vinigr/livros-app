@@ -1,0 +1,29 @@
+.login-wrapper {
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A4CEFE;
+}
+
+.logo{
+    width: 18%;
+    margin-bottom: 1.2em;
+}
+
+.form-{
+    background-color: #F5F5F5;
+    padding: 10px 10px;
+    width: 25%;
+    height: 22%;
+    border-radius: 10px;
+}
+
+.form- h1{
+    text-align: center;
+    margin: 0.6em 0 1em 0;
+    font-size: 1.1em;
+
+}
