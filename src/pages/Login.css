@@ -1,31 +1,55 @@
 .login-wrapper {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #A4CEFE;
+    background-color: rgb(71, 133, 204);
 }
 
-.logo{
-    width: 15em;
-    margin-bottom: 1.2em;
+.logo-login{
+    height: 15vh;
+    margin-bottom: 1em;
 }
 
-.form{
+.form-login{
     background-color: #F5F5F5;
     padding: 10px 10px;
-    width: 35%;
-    height: 65%;
+    width: 85%;
     border-radius: 10px;
 }
 
-.form h1{
+.form-login h1{
     text-align: center;
     margin: 0 0 0.8em 0;
     font-size: 1.7em;
 
+}
+
+.form-login p{
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 0.7em;
+    cursor: pointer
+}
+
+.form-login hr{
+    width: 80%;
+    border: 0.5px solid rgb(180, 178, 178); 
+}
+
+.form-login h3{
+    color: #5E5E5E;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
 }
 
 input{
@@ -49,45 +73,24 @@ input[type=password]{
 }
 
 input[type=submit]{
-    background-color: #A4CEFE;
+    background-color: rgb(71, 133, 204);
     width: 85%;
-}
-.form p{
-    font-size: 0.8em;
-    text-align: center;
-    margin-top: 0.7em;
-    cursor: pointer
+    color: #fff;
 }
 
-.form hr{
-    width: 80%;
-    border: 0.5px solid rgb(180, 178, 178); 
-}
 
-.form h3{
-    color: #5E5E5E;
-    font-size: 1em;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 0.5em;
-}
-
-input[type=submit].button-facebook {
-    display: inline-block;
-    margin-left: 25px;
-    margin-right: 15%;
+.redes input[type=submit].button-facebook {
     background-color: #3B5999;
-    width: 35%;
+    width: 30%;
     color: #fff;
     background-image: url('../img/facebook.png') no-repeat;
 }
     
-input[type=submit].button-google {
-    display: inline-block;
+.redes input[type=submit].button-google {
     background-color: #fff;
-    width: 35%;
+    width: 30%;
     color: #5E5E5E;
-    margin-right: 25px;
+    /* margin-right: 25px; */
     background-image: url('../img/google.png');
 }
 
@@ -99,4 +102,29 @@ h3.cadastro{
 
 Link button{
     cursor: pointer;
+}
+
+@media screen and (min-width: 480px){
+    .form-login{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .form-login{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .form-login{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .form-login{
+        width: 25%;
+        height: 50vh;
+    }
 }

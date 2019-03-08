@@ -1,29 +1,67 @@
-.login-wrapper {
+.recuperacao {
     height: 100vh;
     display: flex;
     width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #A4CEFE;
+    background-color: rgb(71, 133, 204);
 }
 
-.logo{
-    width: 18%;
+.logo-recuperacao{
+    height: 12vh;
     margin-bottom: 1.2em;
 }
 
-.form-{
+.form-recuperacao{
     background-color: #F5F5F5;
     padding: 10px 10px;
-    width: 25%;
-    height: 22%;
+    width: 85%;
     border-radius: 10px;
 }
 
-.form- h1{
+.form-recuperacao h1{
     text-align: center;
     margin: 0.6em 0 1em 0;
     font-size: 1.1em;
+}
 
+@media screen and (min-width: 480px){
+    .form-recuperacao{
+        width: 70%;
+    }
+
+    .logo-recuperacao{
+        height: 13vh;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .form-recuperacao{
+        width: 50%;
+    }
+
+    .logo-recuperacao{
+        height: 14vh;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .form-recuperacao{
+        width: 40%;
+    }
+
+    .logo-recuperacao{
+        height: 15vh;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .form-recuperacao{
+        width: 25%;
+    }
+
+    .logo-recuperacao{
+        height: 15vh;
+    }
 }

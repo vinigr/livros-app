@@ -49,9 +49,10 @@ class Cadastro extends Component{
                     <div className='informacoes'>
                         <h2>Organize seus livros</h2>
                         <p>Anote todos os títulos que lhe interessam e acesse de maneira rápida e fácil</p>                     
+                        <hr className='hr-informacoes'/>
                         <h2>Defina prazos</h2>
                         <p>Coloque datas para que possa terminar cada livro e seja mais produtivo</p>
-
+                        <hr className='hr-informacoes'/>
                         <h2>Compartilhe com seus amigos</h2>
                         <p></p>                        
                     </div>
@@ -66,9 +67,12 @@ class Cadastro extends Component{
                         </select>
                         <input type='submit' value='Cadastrar'/>
                         <hr />
-                        <h3>Conecte-se com:</h3>
-                        <input type='submit' className='button-facebook' value='Facebook' />
-                        <input type='submit' className='button-google' value='Google'/>
+                        <div className='redes-cadastro'>
+                            <h3>Conecte-se com:</h3>
+                            <input type='submit' className='button-facebook' value='Facebook' />
+                            <input type='submit' className='button-google' value='Google'/>
+                        </div>
+                        
                     </form>
                 </main>
 
